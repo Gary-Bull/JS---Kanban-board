@@ -1,4 +1,3 @@
-// get items from local storage key of "tasks"
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 
 document.addEventListener("DOMContentLoaded", renderTasks);
