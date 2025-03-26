@@ -39,7 +39,6 @@ function renderTasks() {
 
     tasks.forEach((task) => {
       if (task.status === columnId) {
-        // console.log("Handle todo later", task);
         const taskElement = createTaskElement(task.content, task.id);
         column.querySelector(".task-container").appendChild(taskElement);
       }
